@@ -1,0 +1,54 @@
+.image-gallery{
+    
+   display: flex;
+   /* justify-content: center; */
+   flex-wrap: wrap;
+gap: 4px;
+
+margin: 1rem;
+  }
+  h1{
+    margin: 10px;
+  }
+  
+  .image-gallery img {
+    width: 26%;
+    margin: 2rem;
+
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  *{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .sidebar img{
+    width: 40%;
+    margin: 0 2rem;
+    height: auto;
+  }
+  .sidebar{
+    display: block;
+  }
+  ul button{
+    padding:20px 5px;
+    background: bottom;
+    
+  }
+  ul button:hover{
+    background: rgb(185, 167, 167);
+    transition: .37s ease-in;
+    color: rgb(252, 57, 57);
+  }
+  .niche{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0%;
+    width: 23%;
+    
+  }
+  .niche button{
+    border: 0;
+  }
