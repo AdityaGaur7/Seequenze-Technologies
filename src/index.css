@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Google';
+  src: url('/public/GoogleSans-Regular.ttf');
+}
+
+:root {
+  --footerBackground: #292c2f;
+  --text: #202124;
+  --lightText: #676C72;
+  --googleBlue: #1A73E8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Google';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main{
+  display: flex;
+
+}
+.side{
+  background-color: #e3e4ea;
+  width: 30%;
+  text-align: center;
+  height: 100vh;
+
+}
+.proj{
+  width: 100%;
+ display: inline;
+ height: 5px;
+  justify-content: end;
+}
